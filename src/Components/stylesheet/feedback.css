@@ -1,0 +1,99 @@
+ * .feedback{
+    background-color: rgb(241, 241, 241);
+}
+
+
+
+.feedbackContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.feedbackContainer h4{
+    font-size: 2.5em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+}
+
+.feedbackContainer2{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20%;
+    text-align: center;
+}
+
+.feedbackContainer2 p{
+    font-size: .8em;
+    font-family: 'poppins';
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.834);
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+    margin-bottom: 5%;
+}
+
+.feedbackForm{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.feedbackForm form{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 3% 5%;
+    background-color: white;
+    margin-bottom: 5%;
+
+}
+
+.feedbackForm form input,textarea,select {
+    width: 50%;
+    height: 46px;
+    margin-bottom: 5%;
+    border: 1px solid rgba(0, 0, 0, 0.534);
+    border-radius: 5px;
+    padding-left: 5%;
+}
+
+/* .feedbackForm form select {
+    width: 50%;
+    height: 46px;
+    margin-bottom: 5%;
+    border: 1px solid rgba(0, 0, 0, 0.534);
+    border-radius: 5px;
+    padding-left: 5%;
+} */
+
+.feedbackForm form label{
+    font-size: 1.2em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+
+::placeholder{
+    font-size: 1em;
+    font-family: 'poppins';
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.534);
+}

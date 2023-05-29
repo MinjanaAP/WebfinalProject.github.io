@@ -1,0 +1,25 @@
+
+.buttonDiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#button{
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: 1px solid black;
+    color: #000000;
+    font-size: 1em;
+    font-family: 'poppins';
+    padding: 3% 10%;
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color: #f0c90999;
+    border: 1px solid transparent;
+}

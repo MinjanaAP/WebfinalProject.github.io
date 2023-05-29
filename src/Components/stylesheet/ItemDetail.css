@@ -1,0 +1,88 @@
+.ItemDetails{
+    width: 100%;
+    height: auto;   
+}
+
+.ItemDetails:hover{
+   border: 1px solid rgba(0, 0, 0, 0.364);
+   border-radius: 10% 0 10% 0;
+   -webkit-border-radius: 10% 0 10% 0;
+   -moz-border-radius: 10% 0 10% 0;
+   -ms-border-radius: 10% 0 10% 0;
+   -o-border-radius: 10% 0 10% 0;
+}
+
+.ItemDetails img{
+    width: 100%;
+    height: auto;
+}
+
+.itemImg{
+    padding: 5%;
+}
+
+.itemDescription{
+    padding-left: 5%;
+}
+
+.itemDescription h3{
+    font-size: 1.4em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+}
+
+.itemDescription p{
+    font-size: 1em;
+    font-family: 'poppins';
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.834);
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+}
+
+.itemPrice{
+    padding:0 8%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.itemPrice h4{
+    font-size: 1em;
+    font-family: 'poppins';
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+}
+.quantity{
+    width: 40%;
+
+}
+.quantity button{
+    width: auto;
+    height: auto;
+    background-color: rgba(254, 254, 254, 0.887);
+    border: 1px solid black;
+    color: #000000;
+    font-size: .8em;
+    font-family: 'poppins';
+    padding: 3% 10%;
+    cursor: pointer;
+    letter-spacing: 3px;
+    margin-left: 3%;
+}
+
+.quantity button:hover{
+    background-color: rgba(30, 23, 23, 0.91);
+    color: white;
+    border: 1px solid white;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -ms-transition: .1s;
+    -o-transition: .1s;
+}

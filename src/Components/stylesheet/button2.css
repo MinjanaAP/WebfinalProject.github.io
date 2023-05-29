@@ -1,0 +1,32 @@
+
+.button2Container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.button2Container #button{
+    width: auto;
+    height: auto;
+    background-color: rgba(254, 254, 254, 0.887);
+    border: 1px solid black;
+    color: #000000;
+    font-size: .8em;
+    font-family: 'poppins';
+    padding: 3% 10%;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+.button2Container #button:hover{
+    background-color: rgba(30, 23, 23, 0.91);
+    color: white;
+    border: 1px solid white;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -ms-transition: .1s;
+    -o-transition: .1s;
+}

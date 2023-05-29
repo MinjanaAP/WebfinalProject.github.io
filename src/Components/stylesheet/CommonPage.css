@@ -1,0 +1,41 @@
+.buttonsDiv{
+    width: 70%;
+    height: auto;
+    margin: 2% 0;
+    display: flex;
+    padding: 0 15%;
+    
+}
+
+#b1{
+    display: none;
+}
+
+.text-common{
+    width: 60%;
+    height: auto;
+    margin: 3% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20%;
+    text-align: center;
+}
+
+.text-common h4{
+    font-size: 3em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.text-common p{
+    font-size: 1.2em;
+    color: #000000aa;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+}

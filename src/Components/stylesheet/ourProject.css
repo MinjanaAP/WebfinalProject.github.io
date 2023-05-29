@@ -1,0 +1,62 @@
+.ourProjectContainer{
+    width: 90%;
+    height: auto;
+    display: flex;
+    padding: 0 5%;
+    margin-bottom: 5%;
+}
+
+.ourProjectImage{
+    width: 90%;
+    height: 10%;
+
+}
+
+.ourProjectImage img{
+    width: 100%;
+    height: 30vw;
+}
+
+.ourProjectText{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 0 5%;
+}
+
+.ourProjectTextHeading{
+    font-size: 1em;
+    letter-spacing: 5px;
+    /* font-weight: 800; */
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #000000;
+}
+
+.ourProjectText2 h4{
+    font-size: 1em;
+    letter-spacing: 5px;
+    font-family: 'poppins';
+    color: #00000080;
+    padding-left: 15%;
+}
+
+.ourProjectText2 h1{
+    font-size: 6em;
+    letter-spacing: 1px;
+    font-family: 'Lobster Two', cursive;
+    color: #6f540bb1;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.ourProjectText3 p{
+    font-size: 1em;
+    font-weight: 100;
+    font-family: 'poppins';
+    color: #000000bc;
+    letter-spacing: 2px;
+    line-height: 30px;
+}

@@ -1,0 +1,40 @@
+.ProductDisc{
+    width: 100%;
+    height: auto;
+    margin: 5% 0;
+    display: flex;
+}
+
+.ProductImg {
+    width: 50%;
+    height: 60vh;
+}
+
+
+.ProductDescription{
+    width: 50%;
+    height: 55vh;
+    padding:0 5% 5% 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+}
+
+.ProductDescription h4{
+    font-size: 3em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+}
+
+.ProductDescription p{
+    font-size: 1em;
+    font-family: 'poppins';
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.834);
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+}

@@ -1,0 +1,19 @@
+.backHomeButtonContainer{
+    width: 3%;
+    height: auto;
+    position: sticky;
+    top: 90%;
+    left: 90%;
+    border-radius: 100%;
+    opacity: 60%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    background-color: transparent;
+}
+
+.backHomeButtonContainer:hover{
+    opacity: 100%;
+    transition: 0.5s;
+}

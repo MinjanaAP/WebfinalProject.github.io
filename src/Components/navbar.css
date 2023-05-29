@@ -1,0 +1,56 @@
+.navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight:100;
+    font-family: 'poppins';
+    letter-spacing: 2px;
+    
+}
+
+.nav-link:hover {
+    color: #555;
+    border-bottom: 1px solid #56877C;
+}
+
+#logo{
+    width: 60%;
+    height: auto;
+}
+
+.contactUs{
+    width: 130px;
+    height: auto;
+    
+}
+.contactUsBtn{
+    width: auto;
+    height: auto;
+    background-color: #f0c909a8;
+    border: none;
+    color: #000000;
+    font-size: 1em;
+    font-family: 'poppins';
+    padding: 5% 10%;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.productPages{
+    width: 100%;
+    height: auto;
+}
+
+
+.otherProducts{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.drop-down-table{
+    width: 10%;
+    height: auto;
+    padding: 0 5% 0 3%;
+}
+
+.Others{
+    width: 70%;
+    height: auto;
+}
+
+.SimilarProducts{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.6rem;
+    padding: 0 0 5% 0 ;
+}
+
+.OthersTitle h3{
+    font-size: 2em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.765);
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+}

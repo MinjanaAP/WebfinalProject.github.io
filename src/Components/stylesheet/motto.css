@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Andika&family=Comfortaa:wght@300&family=Dancing+Script:wght@400;700&family=Lobster+Two:ital@1&family=Megrim&family=Nanum+Gothic&family=Noto+Sans+Ethiopic:wght@300&family=Oleo+Script+Swash+Caps:wght@700&family=Open+Sans:ital@0;1&family=PT+Sans+Narrow&family=Petit+Formal+Script&family=Poppins:wght@300;400&family=Prosto+One&family=Roboto&family=Rubik+Bubbles&display=swap');
+.mottoContainer{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    padding: 0 5%;
+    margin-bottom: 5%;
+    border-top: 1px solid #00000013;
+    border-bottom: 1px solid #00000013;
+}
+
+.mottoImg{
+    width: 10%;
+    height: auto;
+}
+
+.mottoText{
+    width: 60%;
+    height: auto;
+    display: flex;
+    /* background-image: url('../../Resources/back2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    
+}
+
+.mottoText h1{
+    font-size: 2em;
+    color: #6f540b8c;
+    font-family: 'Petit Formal Script', cursive;
+    /* font-family: 'lobster two'; */
+}
+
+.mottoText p{
+    font-size: 1em;
+    color: #000000aa;
+    margin-bottom: 2%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 10px;
+    
+}
+
+.mottoText span{
+    font-family: 'megrim';
+    letter-spacing: 0;
+    color: rgb(5, 96, 82);
+    text-shadow:  2px 1px 2px black;
+}
